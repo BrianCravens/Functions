@@ -1,0 +1,26 @@
+/* body{
+    background-color: aqua;
+} */
+
+h1 {
+    text-align: center ;
+}
+
+ .parent {
+    border: 1px solid green;
+    display: flex; 
+    flex-flow: space-evenly;
+    justify-content: space-between;
+}
+
+.child {
+    border: 1px solid green;
+    flex: 1 0 21%;
+    min-width: 100px;
+    min-height: 100px;
+    background-color: deeppink;
+    color: white;
+    margin: .5%;
+    padding: 1em;
+}
+
